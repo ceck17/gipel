@@ -30,10 +30,12 @@ GIPel est capable de gérer 3 types d'utilisateurs :
 ReadOnly peut :
 - accéder aux sections : enregistrements, divers
 - afficher les enregistrements « communautaires »
+
 ReadWrite peut, en plus :
 - afficher les enregistrements « personnels » lui appartenant
 - ajouter des enregistrements « personnels » ou « communautaires »
 - éditer et supprimer les enregistrements « personnels » lui appartenant
+
 SuperAdmin peut, en plus :
 - accéder aux sections : administration et gestion bancaire
 - afficher tous les enregistrements « personnels »
