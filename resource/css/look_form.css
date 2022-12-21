@@ -1,0 +1,121 @@
+/* 
+* Ã  utiliser avec la classe ceckform [form_class.php]
+*/
+
+
+/* ##################################################################
+----------				STYLES POUR les FORMULAIRES			  ----------
+################################################################## */
+.formContainer {
+	width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formContainer legend {
+	display: block;
+	margin-left: 40px;
+	padding: 2px 12px 4px 12px;
+	font-size : 1.5em;
+	color: #333333;
+	background: #dcdcdc;
+	border: 1px solid #ffffff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.formContainer fieldset {
+	display: block;
+	border: 1px solid #d0d0d0;
+	background: #e8e8e8;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.formContainer p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+div.fieldContainer { /*field row DIV (includes two columns- Styled label column and 'thefield' column)*/
+	width: 540px; /*width of form rows*/
+	overflow: hidden;
+	padding: 5px 0;	/* 5px 0		*/
+}
+
+div.fieldContainer label.styled{ /* label elements that should be styled (left column within fieldContainer DIV) */
+	float: left;
+	width: 150px; /*width of label (left column)*/
+	/* text-transform: uppercase; */
+	border-bottom: 1px solid	gray; /* original = 1px solid red ||| dashed */
+	margin-right: 15px; /* 15px spacing with right column*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+div.fieldContainer div.thefield{ /* DIV that wraps around the actual form fields (right column within fieldContainer DIV) */
+	float: left;
+	margin-bottom: 0; /* 10px space following the field */
+}
+
+div.fieldContainer div.thefield input { /* style pour le texte saisi dans les champs */
+	font-family: Courier New;
+	font-size: 1em;
+	color : #000000;
+	background-color: #ffffff;
+	border-width: 3px;
+	padding : 0 2px;
+}
+
+div.fieldContainer div.thefield select {
+	color : #000000;
+	background-color: #ffffff;
+	border-width: 1px;
+	padding : 0 2px;
+}
+/* ------------------------------------------------------ ajout image plus ------------------ */
+div.fieldContainer img {
+	margin : 0 0 5px 20px;
+}
+
+div.fieldContainer div.thefield input[type="text"]{ /* style for INPUT type="text" fields. Has no effect in IE7 or below! */
+	width: 250px;
+}
+div.fieldContainer div.thefield input[type="date"] , div.fieldContainer div.thefield input[type="number"], div.fieldContainer div.thefield input[type="tel"] {
+	width: 150px;
+}
+/*
+div.fieldContainer div.thefield textarea{ /* style for TEXTAREA fields. 
+	width: 500px;
+	height: 150px;
+}
+*/
+div.fieldContainer div.thefield ul { /* style pour les champs boutons */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	list-style: none;
+	margin-top: 0;
+	padding: 5px 10px 8px 10px;
+	background: #ffffff;
+}
+
+div.buttonsdiv{ /*div that wraps around the submit/reset buttons*/
+	margin-top: 10px; /*space above buttonsdiv*/
+}
+
+div.buttonsdiv input{ /* style for INPUT fields within 'buttonsdiv'. Assumed to be form buttons. */
+	width: 150px;
+	background: #e1dfe0;
+	margin-left: 180px;
+	margin-bottom: 20px;
+}
+
+div.errorMessage {
+	margin-top: -7px;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: red;
+}
+

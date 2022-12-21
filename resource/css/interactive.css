@@ -1,0 +1,91 @@
+/* 
+* 
+*/
+
+
+/* ##################################################################
+----------				BLOCS pour TOGGLE de menus				  ----------
+################################################################## */
+#togglePanel1,#toggleTrigger1,#togglePanel2,#toggleTrigger2,#togglePanel3,#toggleTrigger3 {
+	width: 550px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #ffffe0;
+	border: 1px solid #dddddd;
+	
+}
+#toggleTrigger1,#toggleTrigger2,#toggleTrigger3 {
+	border-radius:10px 10px 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	-webkit-border-radius:10px 10px 0 0;
+	cursor:  pointer;
+}
+#togglePanel1,#togglePanel2,#togglePanel3{
+	padding:10px 5px;
+	display:none;
+	border-radius:0 0 10px 10px;
+	-moz-border-radius:0 0 10px 10px;
+	-webkit-border-radius:0 0 10px 10px;
+}
+
+/* ##################################################################
+----------			BLOC pour TOGGLE en vue DETAIL			  ----------
+################################################################## */
+#togglePanelDetail,#toggleTriggerDetail {
+	width: 600px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e0e0e0;
+	border: 1px solid #d0d0d0;
+	
+}
+#toggleTriggerDetail {
+	text-align: center;
+	border-radius:10px 10px 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	-webkit-border-radius:10px 10px 0 0;
+	cursor:  pointer;
+}
+#togglePanelDetail{
+	font-size: 10px;
+	display:none;
+	border-radius:0 0 10px 10px;
+	-moz-border-radius:0 0 10px 10px;
+	-webkit-border-radius:0 0 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

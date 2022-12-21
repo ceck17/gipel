@@ -1,0 +1,364 @@
+/* 
+* RÃ©cupÃ©rÃ© de D:\wamp\www\WORK\gcm\v_current\css
+*/
+
+/* ##################################################################
+----------				BODY et prÃ©sentation globale			  ----------
+################################################################## */
+html {
+	font-size: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif; /* 3 */
+	font-size: .8em;
+	line-height: 1.25;
+	color: #000000;
+	background: #bbbbbb;
+}
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 .25em 0;
+}
+h1, h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+	font-style: italic;
+}
+h2 {
+	font-size: 1.6em;
+}
+h2  img{
+	margin-top: 4px;
+	margin-bottom: -5px;
+}
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1em;
+}
+/* Paragraphes */
+p {
+	font-size: 0.95em;
+	margin: .75em 0;
+	text-align: justify;
+}
+/* style des liens */
+a {
+	color: #663300;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #000000;
+	text-decoration: underline;
+}
+/* images */
+a img {
+	border: none;
+}
+/* ##################################################################
+----------							BLOC GLOBAL						  ----------
+################################################################## */
+#global {
+	width: 648px;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* ##################################################################
+----------							BLOC HEADER						  ----------
+################################################################## */
+#header {
+	width: 648px;
+	border:1px solid #ffffff;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+}
+#header table, #header tr, #header td {
+	margin: 0;
+	padding: 0;
+}
+#header tr {
+	vertical-align: middle;
+}
+#header td {
+	color: #ffff00;
+	font-size: .8em;
+}
+/* ##################################################################
+----------					Recherche glogale						  ----------
+################################################################## */
+#general_search {
+	text-align: right;
+	margin-top: 4px;
+	margin-right: 10px;
+}
+#general_search  #search_form  #search_string {
+	width: 120px;
+	border: 0;
+	background-color: #f8f8f8;
+	font-size: 1.3em;
+	padding: 3px 3px 3px 10px;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+}
+#general_search #search_submit {
+	border:0;
+	background:url(cherche.png) no-repeat;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	color:#bbbbbb;
+	font-size: 4px;
+	margin-bottom: 8px;
+}
+#general_search  #search_submit:hover {
+	background-image:url(cherche_hover.png);
+}
+
+/* ##################################################################
+----------						BLOC CONTAINER				  ----------
+################################################################## */
+#container {
+	background: #f0f0f0;
+	width: 100%;
+	margin: 5px 0;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	overflow: hidden;
+}
+
+/* ##################################################################
+----------						BLOC CONTENT					  ----------
+################################################################## */
+#content {
+	color: #000000;
+	padding: 0 10px;
+}
+
+#content p, #content li {
+	line-height: 1.5;
+}
+
+#content h1, #content h3{
+/*	color: #aaaaaa;	*/
+}
+/*
+#content a {
+	color: #00637f;
+}
+#content a:hover, #content a:focus {
+	color: #ddbb00;
+}
+*/
+#content > :first-child {
+	margin-top: 10px;
+}
+#content > :last-child {
+	margin-bottom: 10px;
+}
+/* ##################################################################
+----------							BLOC FOOTER						  ----------
+################################################################## */
+#footer {
+	width: 648px;
+	margin: 0;
+	padding: 0;				/*		0 0 10px 0		*/
+	font-size: .85em;
+	background: #484848;
+	color: #bbbbbb;
+	border:1px solid #484848;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+}
+#footer p {
+	padding: 0 20px;
+}
+#footer a {
+	color: #b8b848;
+	text-decoration: none;
+}
+#footer a:hover, #footer a:focus {
+	color: #ffff00;
+	text-decoration: underline;
+}
+.align_left {
+	float: left;
+}
+.align_right {
+	float: right;
+}
+/* ##################################################################
+----------			CLASSES particuliÃ¨res						  ----------
+################################################################## */
+.occure_pair, .occure_impair {
+	font-size: 1.1em;
+	line-height: 35px;
+	background: #ffffe0;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+}
+.occure_impair {
+	background: #eaeaff;
+}
+.occure_pair img, .occure_impair img {
+	margin-bottom: -6px;
+}
+
+/* ##################################################################
+----------				boÃ®tes de messages						  ----------
+################################################################## */
+p.fbox{
+	background-position: 5px 2px;
+	background-repeat: no-repeat;
+	width: 320px;
+	color: #000;
+	padding: 4px 4px 4px 40px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+}
+p.fbox.error {
+	background-image: url(error.png);
+	background-color:#FBE6F2;
+	border-color:#D893A1;
+}
+p.fbox.good {
+	background-image: url(good.png);
+	background-color: #E6FBF2;
+	border-color: #93D8A1;
+}
+p.fbox.info {
+	background-image: url(info.png);
+	background-color: #E6FBF2;
+	border-color: #93D8A1;
+}
+p.fbox.warning {
+	background-image: url(warning.png);
+	background-color:#FBE6F2;
+	border-color:#D893A1;
+}
+/* ##################################################################
+----------		Divers Ã©lÃ©ments de type en-ligne				  ----------
+################################################################## */
+.gris_moyen {
+	color: #888888;
+}
+.jaune {
+	color: #ffff00;
+}
+.rouge {
+	color: #ff0000;
+}
+.vert {
+	color: #008800;
+}
+.bleu {
+	color: #0000ff;
+}
+em {
+	font-style: italic;
+	color: #888888;
+}
+strong {
+	font-weight: bold;
+}
+.tiny {
+	font-size: 6px;
+	display: none;
+}
+
+/* ##################################################################
+----------				TABLE pour usage GENERAL				  ----------
+################################################################## */
+#commonTable {
+	margin-bottom:20px;
+	border-collapse:collapse;
+	color:#000000;
+	margin-left: auto;
+	margin-bottom: 10px;
+	margin-right: auto;
+}
+#commonTable td, #commonTable th {
+	text-align:center;
+	padding: 2px 0;
+	border:1px solid #bbbbbb;
+}
+#commonTable th {
+	background-color:#d3b023;
+	color:#ffffff;
+	font-size: 1.2em;
+}
+#commonTable th a {
+	color:#ffffff;
+}
+#commonTable th a:hover {
+	color: #aa0000;
+	text-decoration: none;
+}
+#commonTable tr.alt td {
+	color:#000000;
+	background-color:#e8e8e8;
+}
+/* ##################################################################
+----------		TABLE pour lister les enregistrements		  ----------
+################################################################## */
+#listeTable {
+	font-size: 14px;
+	color:#000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+#listeTable td {
+	border: none;
+	padding: 4px;
+	background-color:#e8e8e8;
+}
+#listeTable tr.alt td {
+	color:#000000;
+	background-color:#ffffff;
+}
+
+/* ##################################################################
+----------			TABLE pour affichage NAV/TITRE			  ----------
+################################################################## */
+#navTitleTable {
+	width: 100%;
+	margin-bottom: 10px;
+}
+#navTitleTable td {
+	border: none;
+	background-color:#ffffff;
+	border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
